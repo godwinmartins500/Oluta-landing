@@ -1,0 +1,79 @@
+.solution-section {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.solution-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.solution-description {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+/* Layout container - 2x2 grid with wider text boxes */
+.solution-container {
+  display: grid;
+  grid-template-columns: 1fr 1.8fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Reverse layout for second row - wider text, smaller image */
+.solution-container-reverse {
+  grid-template-columns: 1.8fr 1fr;
+}
+
+/* Image styling */
+.solution-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Text box styling */
+.solution-text {
+  padding: 2rem;
+  border-radius: 15px;
+  color: white;
+  background-color: #3C2323;
+  border: 2px solid #3C2323;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 250px;
+}
+
+.solution-text h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.solution-text p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .solution-container {
+    grid-template-columns: 1fr;
+  }
+
+  .solution-image,
+  .solution-text {
+    height: auto;
+  }
+
+  .solution-text {
+    padding: 1.5rem;
+  }
+}

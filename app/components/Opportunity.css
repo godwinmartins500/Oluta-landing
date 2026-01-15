@@ -1,0 +1,172 @@
+.opportunity-section {
+  width: 100%;
+  /* background-color: #f5f5f5; */
+  padding: 0 2rem;
+}
+
+.opportunity-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  align-items: stretch;
+  min-height: 100%;
+}
+
+.opportunity-content {
+  background: linear-gradient(135deg, #e8f1f8 0%, #f0f5fb 100%);
+  padding: 2rem;
+  border-radius: 12px 0 0 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.opportunity-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+  margin: 0 0 0.5rem 0;
+}
+
+.opportunity-subtitle {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #333333;
+  margin: 0 0 1.25rem 0;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.stat-card {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  color: #666666;
+  margin: 0 0 0.3rem 0;
+  font-weight: 500;
+}
+
+.stat-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #003da7;
+  margin: 0 0 0.3rem 0;
+}
+
+.stat-description {
+  font-size: 0.65rem;
+  color: #999999;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.expected-outcomes {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.outcomes-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #000000;
+  margin: 0 0 0.75rem 0;
+}
+
+.outcomes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+.outcome-item {
+  padding-right: 0.75rem;
+}
+
+.outcome-item:first-child {
+  border-right: 1px solid #e0e0e0;
+}
+
+.outcome-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #000000;
+  margin: 0 0 0.3rem 0;
+}
+
+.outcome-description {
+  font-size: 0.65rem;
+  color: #666666;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.opportunity-image {
+  border-radius: 0 12px 12px 0;
+  overflow: hidden;
+  box-shadow: none;
+}
+
+.opportunity-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .opportunity-container {
+    grid-template-columns: 1fr;
+  }
+
+  .opportunity-content {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .opportunity-section {
+    padding: 3rem 2rem;
+  }
+
+  .opportunity-title {
+    font-size: 1.5rem;
+  }
+
+  .stats-grid {
+    gap: 1rem;
+  }
+
+  .stat-card {
+    padding: 1rem;
+  }
+
+  .outcomes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .outcome-item {
+    padding-right: 0;
+    border-right: none;
+    padding-bottom: 1rem;
+  }
+
+  .outcome-item:first-child {
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+  }
+}
