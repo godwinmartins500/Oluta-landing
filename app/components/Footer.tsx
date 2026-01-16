@@ -61,8 +61,8 @@ const Footer = () => {
                 whileHover={{ x: 5 }}
               >
                 <Mail size={20} className="contact-icon" />
-                <a href="mailto:support@oluta.com" className="contact-link">
-                  Support@oluta.com
+                <a href="mailto:info@temlio" className="contact-link">
+                  info@temlio.com
                 </a>
               </motion.div>
 
@@ -72,7 +72,7 @@ const Footer = () => {
               >
                 <Phone size={20} className="contact-icon" />
                 <a href="tel:+234800000000" className="contact-link">
-                  234 80000000000
+                  +234 2013500010
                 </a>
               </motion.div>
 
