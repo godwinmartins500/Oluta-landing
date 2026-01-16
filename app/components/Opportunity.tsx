@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import './Opportunity.css';
+import "./Opportunity.css";
 
 const Opportunity = () => {
   const stats = [
@@ -63,7 +63,7 @@ const Opportunity = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             viewport={{ once: true }}
           >
-            Nigeria's embedded finance market is exploding. The window is open, but it won't stay open forever.
+            Nigeria embedded finance market is exploding. The window is open, but it would not stay open forever.
           </motion.p>
 
           <motion.div

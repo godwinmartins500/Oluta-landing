@@ -3,7 +3,7 @@
 import React from 'react';
 import { Zap } from 'lucide-react';
 import { motion } from 'framer-motion';
-import './Features.css';
+import "./Features.css";
 
 const Features = () => {
   const features = [

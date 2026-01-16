@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import './Solution.css';
+import "./Solution.css";
 
 const Solution = () => {
   return (

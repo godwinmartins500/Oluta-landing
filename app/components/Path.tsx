@@ -3,7 +3,7 @@
 import React from 'react';
 import { Building2, Store, ShoppingBag } from 'lucide-react';
 import { motion } from 'framer-motion';
-import './Path.css';
+import "./Path.css";
 
 const Path = () => {
   const paths = [

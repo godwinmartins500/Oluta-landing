@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Facebook, Instagram, Send, Mail, Phone, MapPin } from 'lucide-react';
 import { motion } from 'framer-motion';
-import './Footer.css';
+import "./Footer.css";
 
 const Footer = () => {
   const itemVariants = {
