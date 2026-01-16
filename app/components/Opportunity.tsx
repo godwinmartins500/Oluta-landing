@@ -94,52 +94,6 @@ const Opportunity = () => {
               </motion.div>
             ))}
           </motion.div>
-
-          <motion.div
-            className="expected-outcomes"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            viewport={{ once: true }}
-          >
-            <h3 className="outcomes-title">Expected Outcomes (18 months)</h3>
-            <motion.div
-              className="outcomes-grid"
-              variants={{
-                hidden: { opacity: 0 },
-                visible: {
-                  opacity: 1,
-                  transition: {
-                    staggerChildren: 0.15,
-                  },
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-            >
-              <motion.div
-                className="outcome-item"
-                variants={{
-                  hidden: { opacity: 0, x: -20 },
-                  visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
-                }}
-              >
-                <p className="outcome-label">Bank Partnership</p>
-                <p className="outcome-description">5-10 Nigerian banks onboarded with 50,000+ merchants processing $1.5 billion in annual transaction volume</p>
-              </motion.div>
-              <motion.div
-                className="outcome-item"
-                variants={{
-                  hidden: { opacity: 0, x: -20 },
-                  visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
-                }}
-              >
-                <p className="outcome-label">Revenue Impact</p>
-                <p className="outcome-description">Banks generate $1.5 million in new annual revenue. Merchants access $50 million in working capital loans</p>
-              </motion.div>
-            </motion.div>
-          </motion.div>
         </motion.div>
 
         <motion.div
